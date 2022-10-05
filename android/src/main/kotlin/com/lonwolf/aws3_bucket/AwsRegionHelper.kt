@@ -66,7 +66,7 @@ class AwsRegionHelper(private val context: Context,
         print(subRegion1)
 //        print(IDENTITY_POOL_ID+"\n")
         return AmazonS3Client(aws, com.amazonaws.regions.Region.getRegion(
-            Regions.US_EAST_1
+           Regions.AP_SOUTHEAST_1
         ))
     }
 
